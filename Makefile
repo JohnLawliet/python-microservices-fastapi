@@ -1,12 +1,13 @@
 install:
-  	#install dependencies
-  	pip install --upgrade pip &&\
+	#install commands
+	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 format:
-  #format code with black
-  	black **.py
+	#format code
 lint:
-  #install pylint
+	#pylint
 test:
-  #create test with pytest
-all: install lint test format
+	#test
+deploy:
+	#deploy
+all: install lint test deploy
