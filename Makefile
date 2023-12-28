@@ -1,11 +1,12 @@
 install:
-  #install dependencies
-  python -m pip install --upgrade pip
-  pip install pytest pylint black
+  	#install dependencies
+  	pip install --upgrade pip &&\
+		pip install -r requirements.txt
 format:
   #format code with black
-  black **.py
+  	black **.py
 lint:
   #install pylint
 test:
   #create test with pytest
+all: install lint test format
