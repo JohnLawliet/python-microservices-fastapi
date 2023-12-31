@@ -1,0 +1,9 @@
+Review the requirements.txt to check what requirements should bein python web app
+
+digitalocean link https://do.co/cfe-youtube
+
+pre-commit:
+used to perform actions before commiting to github.
+1.  pre-commit sample-config : gives a sample config
+2.  pre-commit install
+3.  pre-commit run --all-files

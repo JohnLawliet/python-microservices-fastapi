@@ -1,4 +1,32 @@
+# for createing tests and assertions. Requieres pytest.ini file as its config
 pytest==7.4.3
+
+# for ??
 pytest-cov==4.1.0
+
+# for linting code
 pylint==3.0.3
+
+# for ??
 black==23.12.1
+
+# web framework built on pydantic and starlette to provide REST endpoints that are fast as nodejs
+fastapi==0.108.0
+
+# implements WSGI specification. This is required by Fastapi
+gunicorn==21.2.0
+
+# implements ASGI specification. This is required by starlette which is furthur used by fastapi
+uvicorn==0.25.0
+
+# most popular templating engine of python
+jinja2
+
+# required for ?
+requests==2.31.0
+
+# required by pytest
+httpx
+
+# required for performing actions before commiting
+pre-commit
