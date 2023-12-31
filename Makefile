@@ -7,7 +7,7 @@ format:
 lint:
 	#pylint
 test:
-	#test
+	pytest
 deploy:
 	#deploy
 all: install lint test deploy
