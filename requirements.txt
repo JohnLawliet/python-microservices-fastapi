@@ -13,6 +13,8 @@ black==23.12.1
 # web framework built on pydantic and starlette to provide REST endpoints that are fast as nodejs
 fastapi==0.108.0
 
+pydantic-settings
+
 # implements WSGI specification. This is required by Fastapi
 gunicorn==21.2.0
 
@@ -30,3 +32,11 @@ httpx
 
 # required for performing actions before commiting
 pre-commit
+
+# required to detect env files
+python-dotenv
+
+#these are required for uploading files
+aiofiles
+python-multipart
+pillow
